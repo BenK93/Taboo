@@ -1,0 +1,120 @@
+.home-container {
+    /* margin:auto; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.card-container {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.time-con {
+    padding: 7px;
+    border-radius: 30%
+}
+
+.table-con {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.red {
+    color: rgb(214, 107, 107);
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.points {
+    padding: 20px;
+    font-size: 35px;
+    color: #3a9a53;
+}
+
+.time {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.green-time {
+    color: #46e64b;
+}
+
+.start-game-btn-bon {
+    margin: auto;
+    width: 20%;
+}
+
+.start-game {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.modal-con {
+    padding-Top: 130px;
+    /* background-color: white; */
+    font-family: "Sofia", sans-serif;
+    opacity: 1;
+    font-size: 30px;
+    /* color: white; */
+    /* width: 40%; */
+    margin: auto;
+    text-Align: center;
+}
+
+@media only screen and (min-width: 700px) {
+    .menu-size {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home-container {
+        height: 650px
+    }
+    .table-con {
+        width: 90%;
+        /* margin-top: 120px; */
+    }
+    .time {
+        font-size: 50px
+    }
+    .card-container {
+        width: 90%;
+        justify-content: space-around;
+    }
+    .start-game-btn-bon {
+        margin: auto;
+        width: 50%;
+        height: 100px;
+    }
+    .start-game {
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+    }
+    .modal-con {
+        padding-top: 160px;
+        font-size: 40px;
+        text-align: center;
+    }
+}

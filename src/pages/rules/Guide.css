@@ -1,0 +1,27 @@
+.guide-header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.guide-title{
+    font-size:40px;
+}
+.guide-content{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* width: 95%; */
+}
+
+@media only screen and (max-width: 700px) {
+    .guide-content{
+        width:95%
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .guide-content{
+        width:35%
+    }
+}
