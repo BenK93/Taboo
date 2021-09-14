@@ -1,5 +1,4 @@
 .home-container {
-    /* margin:auto; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -18,11 +17,6 @@
     width: 50%;
     margin: 0 auto;
     padding: 30px;
-}
-
-.time-con {
-    padding: 7px;
-    border-radius: 30%
 }
 
 .table-con {
@@ -59,6 +53,7 @@
 }
 
 .start-game-btn-bon {
+    /* padding-top: 20px; */
     margin: auto;
     width: 20%;
 }
@@ -71,12 +66,9 @@
 
 .modal-con {
     padding-Top: 130px;
-    /* background-color: white; */
     font-family: "Sofia", sans-serif;
     opacity: 1;
     font-size: 30px;
-    /* color: white; */
-    /* width: 40%; */
     margin: auto;
     text-Align: center;
 }
@@ -89,11 +81,10 @@
 
 @media only screen and (max-width: 700px) {
     .home-container {
-        height: 650px
+        height: 550px
     }
     .table-con {
         width: 90%;
-        /* margin-top: 120px; */
     }
     .time {
         font-size: 50px
@@ -105,11 +96,8 @@
     .start-game-btn-bon {
         margin: auto;
         width: 50%;
-        height: 100px;
     }
     .start-game {
-        width: 200px;
-        height: 200px;
         font-size: 20px;
     }
     .modal-con {

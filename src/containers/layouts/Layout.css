@@ -26,8 +26,10 @@ body {
 }
 
 .footer-con {
-    background-color: #75d2ff3a;
+    background-color: #92134099;
     text-align: center;
+    font-weight: 700;
+    color: white;
     width: 100%;
     position: fixed;
     bottom: 0px;

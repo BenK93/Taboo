@@ -41,7 +41,7 @@
     .my-card-con {
         flex-direction: column;
         justify-content: space-around;
-        height: 450px;
+        height: 380px;
         display: flex;
     }
     .button-text {
