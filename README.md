@@ -3,10 +3,6 @@
 Demo:[IMG_3665](https://user-images.githubusercontent.com/21170255/133311460-2df464ef-d197-430e-8577-5c6ca6c23fc8.jpg)
 
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ## `Run Locally`
 
 1) clone Repo
