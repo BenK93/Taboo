@@ -59,11 +59,12 @@ export default class Home extends Component {
         this.setState({ time: this.state.time - 1 });
         if (i === 59) {
           let points =
-            this.state.roundCounter % 2 == 0
+            this.state.roundCounter % 2 === 0
               ? this.state.group1Points
               : this.state.group2Points;
           this.setState({
             endGame: true,
+            cardNumber: Math.floor(Math.random() * cards.length),
             roundCounter: this.state.roundCounter + 1,
             modalText: `${points} Points!`,
             modal: true,
@@ -82,6 +83,7 @@ export default class Home extends Component {
   };
 
   range = (start: number, end: number) => {
+    // returning an array in range
     return Array(end - start + 1)
       .fill(1)
       .map((_, idx) => start + idx)

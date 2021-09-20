@@ -54,7 +54,7 @@ const MyCard = (props: CardProps) => {
             size="medium"
           >
             <SentimentVeryDissatisfiedTwoToneIcon />
-            <span className="button-text">דלג</span>
+            <span className="button-text">+0 דלג</span>
           </Button>
           <Button
             onClick={() => props.onNext()}
@@ -64,7 +64,7 @@ const MyCard = (props: CardProps) => {
             size="medium"
           >
             <SentimentVerySatisfiedTwoToneIcon />
-            <span className="button-text">הבא</span>
+            <span className="button-text">+1 הבא</span>
           </Button>
         </div>
       </Card>
